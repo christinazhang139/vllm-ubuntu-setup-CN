@@ -22,12 +22,12 @@
   - [情况3: 有PyTorch环境](#-情况3-有pytorch环境)
 
 ### 📖 详细安装指南
-- **[📋 基础依赖安装](docs/01-basic-dependencies.md)** - 系统包和工具
-- **[🎮 NVIDIA驱动安装](docs/02-nvidia-drivers.md)** - GPU驱动配置
-- **[⚡ CUDA工具包安装](docs/03-cuda-installation.md)** - CUDA开发环境
-- **[🐍 Python环境配置](docs/04-python-setup.md)** - Python版本检查
-- **[📦 vLLM安装](docs/05-vllm-installation.md)** - 虚拟环境、PyTorch和vLLM完整安装
-- **[✅ 验证测试](docs/06-verification.md)** - 安装验证
+- **[📋 基础依赖安装](doc/01-basic-dependencies.md)** - 系统包和工具
+- **[🎮 NVIDIA驱动安装](doc/02-nvidia-drivers.md)** - GPU驱动配置
+- **[⚡ CUDA工具包安装](doc/03-cuda-installation.md)** - CUDA开发环境
+- **[🐍 Python环境配置](doc/04-python-setup.md)** - Python版本检查
+- **[📦 vLLM安装](doc/05-vllm-installation.md)** - 虚拟环境、PyTorch和vLLM完整安装
+- **[✅ 验证测试](doc/06-verification.md)** - 安装验证
 
 ### ✅ 验证和优化
 - **[✅ 安装完成后的验证](#-安装完成后的验证)** - 确认安装成功
@@ -118,25 +118,25 @@
 ### 🆕 情况1: 全新系统（推荐新手）
 你的系统刚安装，什么都没有配置：
 
-1. **[📋 基础依赖安装](docs/01-basic-dependencies.md)** - 安装必要的系统包
-2. **[🎮 NVIDIA驱动安装](docs/02-nvidia-drivers.md)** - 安装GPU驱动
-3. **[⚡ CUDA工具包安装](docs/03-cuda-installation.md)** - 安装CUDA开发环境
-4. **[🐍 Python环境配置](docs/04-python-setup.md)** - 检查Python版本
-5. **[📦 vLLM安装](docs/05-vllm-installation.md)** - 虚拟环境、PyTorch和vLLM完整安装
-6. **[✅ 验证测试](docs/06-verification.md)** - 验证安装是否成功
+1. **[📋 基础依赖安装](doc/01-basic-dependencies.md)** - 安装必要的系统包
+2. **[🎮 NVIDIA驱动安装](doc/02-nvidia-drivers.md)** - 安装GPU驱动
+3. **[⚡ CUDA工具包安装](doc/03-cuda-installation.md)** - 安装CUDA开发环境
+4. **[🐍 Python环境配置](doc/04-python-setup.md)** - 检查Python版本
+5. **[📦 vLLM安装](doc/05-vllm-installation.md)** - 虚拟环境、PyTorch和vLLM完整安装
+6. **[✅ 验证测试](doc/06-verification.md)** - 验证安装是否成功
 
 ### 🔧 情况2: 已有CUDA环境
 你已经安装了NVIDIA驱动和CUDA：
 
-1. **[🐍 Python环境配置](docs/04-python-setup.md)**
-2. **[📦 vLLM安装](docs/05-vllm-installation.md)** - 虚拟环境、PyTorch和vLLM完整安装
-3. **[✅ 验证测试](docs/06-verification.md)**
+1. **[🐍 Python环境配置](doc/04-python-setup.md)**
+2. **[📦 vLLM安装](doc/05-vllm-installation.md)** - 虚拟环境、PyTorch和vLLM完整安装
+3. **[✅ 验证测试](doc/06-verification.md)**
 
 ### 🚀 情况3: 有PyTorch环境
 你已经有了PyTorch环境：
 
-1. **[📦 vLLM安装](docs/05-vllm-installation.md)** - 仅安装vLLM部分
-2. **[✅ 验证测试](docs/06-verification.md)**
+1. **[📦 vLLM安装](doc/05-vllm-installation.md)** - 仅安装vLLM部分
+2. **[✅ 验证测试](doc/06-verification.md)**
 
 ---
 
@@ -144,7 +144,7 @@
 
 完成所有安装步骤后，请务必运行完整的环境验证：
 
-**[🔍 完整环境验证脚本](docs/06-verification.md)** - 一次性检查所有组件是否正确安装
+**[🔍 完整环境验证脚本](doc/06-verification.md)** - 一次性检查所有组件是否正确安装
 
 这个验证脚本会检查：
 - ✅ 系统信息和硬件兼容性
