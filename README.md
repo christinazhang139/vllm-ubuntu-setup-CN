@@ -5,7 +5,6 @@
 ![CUDA](https://img.shields.io/badge/CUDA-11.8+-green.svg)
 ![vLLM](https://img.shields.io/badge/vLLM-latest-purple.svg)
 
-[English](README.md) | [中文](README_CN.md)
 
 > 🎯 这是一个模块化的vLLM安装指南，根据你的具体情况选择对应的安装步骤。
 
